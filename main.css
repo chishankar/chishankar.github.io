@@ -1,10 +1,11 @@
 .jumbotron{
-  background-image: url("../assets/img/hot_air_balloon.jpg") no-repeat !important;
+  background-image: url(../assets/img/hot_air_balloon.jpg) no-repeat !important;
   background-size: cover;
   height: 100%;
   width: 100%;
 }
 
 h2{
-  padding-left: inherit;
+  padding-left: 400px;
+  color: grey;
 }
