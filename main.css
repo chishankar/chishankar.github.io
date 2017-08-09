@@ -4,7 +4,11 @@
   height: 100%;
 }
 
+.jumbotron p{
+  color: grey
+}
+;
 h2{
-  padding-left: 1000px;
-  color: grey;
+  padding-left: relative;
+  color: black;
 }
