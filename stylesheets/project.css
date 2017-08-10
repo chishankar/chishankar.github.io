@@ -13,7 +13,9 @@
 }
 
 .concepts{
-  padding-left: 20px;
+  color: grey;
+  line-height: 0;
+  font-size: 20px;
 }
 
 p{
