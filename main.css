@@ -1,11 +1,13 @@
 .jumbotron{
   background-image: url("../assets/img/hot_air_balloon.jpg");
   background-size: cover;
-  height: 100%;
+  height: 100vh;
 }
-
+.navbar{
+   margin-bottom: 0;
+}
 div p{
-  color: grey;
+  color: black;
 }
 
 h2{
