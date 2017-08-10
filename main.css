@@ -13,9 +13,10 @@ div p{
 
 body p{
   padding-left: 40px;
+  text-align: center;
 }
 
 h2{
-  align-content: center;
+  text-align: center;
   padding-left: 10px;
 }
