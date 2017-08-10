@@ -1,7 +1,7 @@
 .jumbotron {
   background-size: cover;
   background-attachment: fixed;
-  height: 50vh;
+  padding-top: 0;
 }
 
 .navbar {
