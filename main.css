@@ -11,6 +11,10 @@ div p{
   color: black;
 }
 
+body p{
+  padding-left: 40px;
+}
+
 h2{
   padding-left: 10px;
 }
