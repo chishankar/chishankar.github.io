@@ -1,22 +1,24 @@
-.jumbotron{
+.jumbotron {
   background-image: url("../assets/img/hot_air_balloon.jpg");
   background-size: cover;
   background-attachment: fixed;
   height: 50vh;
 }
-.navbar{
-   margin-bottom: 0;
+
+.navbar {
+  margin-bottom: 0;
 }
-div p{
+
+div p {
   color: black;
 }
 
-body p{
+body p {
   padding-left: 40px;
   text-align: center;
 }
 
-h2{
+h2 {
   text-align: center;
   padding-left: 10px;
 }
