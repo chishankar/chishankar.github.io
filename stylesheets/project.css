@@ -8,6 +8,10 @@
   margin-bottom: 0;
 }
 
+.container .format{
+  padding-left: 20px;
+}
+
 p{
   padding-top: 2px;
   padding-left: 30px;
