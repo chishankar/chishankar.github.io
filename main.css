@@ -4,11 +4,11 @@
   height: 100%;
 }
 
-div p{
-  color: blue;
+p{
+  color: grey;
 }
 
 h2{
   padding-left: 100px;
-  color: black;
+  color: blue;
 }
