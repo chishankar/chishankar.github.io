@@ -1,0 +1,9 @@
+.jumbotron {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
