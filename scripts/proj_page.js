@@ -11,8 +11,7 @@ function SwitchToClass(classnum){
         document.getElementById("personal_projects").style.display = "none";
         document.getElementById("bitcamp_projects").style.display = "none";
 
-        document.getElementById("word1").style.textDecoration = "bold";
-        document.getElementById("word1").style.font-size += 5;
+        document.getElementById("word1").style.textDecoration = "underline";
 
         document.getElementById("word2").style.textDecoration = "none";
         document.getElementById("word3").style.textDecoration = "none";
@@ -25,8 +24,7 @@ function SwitchToClass(classnum){
 
         document.getElementById("word1").style.textDecoration = "none";
 
-        document.getElementById("word2").style.textDecoration = "bold";
-        document.getElementById("word2").style.font-size += 5;
+        document.getElementById("word2").style.textDecoration = "underline";
 
         document.getElementById("word3").style.textDecoration = "none";
     }
@@ -40,7 +38,6 @@ function SwitchToClass(classnum){
 
         document.getElementById("word2").style.textDecoration = "none";
 
-        document.getElementById("word3").style.textDecoration = "bold";
-        document.getElementById("word3").style.font-size += 5;
+        document.getElementById("word3").style.textDecoration = "underline";
 
 }
