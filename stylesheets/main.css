@@ -1,8 +1,9 @@
 .jumbotron {
-  background-image: url("../assets/img/milky_way.jpg");
+  background-image: url("../assets/img/hot_air_balloon.jpg");
   background-size: cover;
   background-attachment: fixed;
   height: 50vh;
+
 }
 
 .navbar {
@@ -23,9 +24,5 @@ h2 {
 }
 
 h1{
-  color: white;
-}
-
-.jumbotron p{
-  color: white;
+  color: black;
 }
