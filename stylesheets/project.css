@@ -8,7 +8,6 @@
   margin-bottom: 0;
 }
 .code_color code{
-  color: red;
   background-color: #fcf8e3;
 }
 
@@ -59,4 +58,7 @@ h2{
 }
 .panel-danger>.panel-heading{
   color: black;
+}
+.color{
+  color:black;
 }
