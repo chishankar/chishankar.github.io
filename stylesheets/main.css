@@ -9,10 +9,11 @@
 .navbar {
   margin-bottom: 0;
 }
-
-.bigger{
-  font: 20px;
+.btn{
+  padding-left: 100px;
+  padding-right: 100px;
 }
+
 
 div p {
   color: black;
