@@ -1,3 +1,9 @@
+
+$( document ).ready(function() {
+    // console.log( "ready!" );
+    SwitchToClass(1);
+});
+
 function SwitchToClass(classnum){
 
 
@@ -20,8 +26,3 @@ function SwitchToClass(classnum){
         document.getElementById("bitcamp_projects").style.display = "block";
     }
 }
-
-$( document ).ready(function() {
-    // console.log( "ready!" );
-    SwitchToClass(1);
-});
