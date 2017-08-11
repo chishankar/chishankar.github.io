@@ -2,7 +2,7 @@
   background-image: url("../assets/img/hot_air_balloon.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 30vh;
+  height: 40vh;
 
 }
 
@@ -13,7 +13,6 @@
   padding-left: 100px;
   padding-right: 100px;
 }
-
 
 div p {
   color: black;
