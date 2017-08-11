@@ -10,6 +10,10 @@
   margin-bottom: 0;
 }
 
+.bigger{
+  font: 20px;
+}
+
 div p {
   color: black;
 }
