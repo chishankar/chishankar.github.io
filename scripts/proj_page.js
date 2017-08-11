@@ -10,17 +10,37 @@ function SwitchToClass(classnum){
         document.getElementById("class_projects").style.display = "block";
         document.getElementById("personal_projects").style.display = "none";
         document.getElementById("bitcamp_projects").style.display = "none";
+
+        document.getElementById("word1").style.textDecoration = "bold";
+        document.getElementById("word1").style.font-size += 5;
+
+        document.getElementById("word2").style.textDecoration = "none";
+        document.getElementById("word3").style.textDecoration = "none";
     }
     else if(classnum === 2) {
         console.log("Switching to video 2");
         document.getElementById("class_projects").style.display = "none";
         document.getElementById("personal_projects").style.display = "block";
         document.getElementById("bitcamp_projects").style.display = "none";
+
+        document.getElementById("word1").style.textDecoration = "none";
+
+        document.getElementById("word2").style.textDecoration = "bold";
+        document.getElementById("word2").style.font-size += 5;
+
+        document.getElementById("word3").style.textDecoration = "none";
     }
     else if(classnum === 3) {
         console.log("Switching to video 3");
         document.getElementById("class_projects").style.display = "none";
         document.getElementById("personal_projects").style.display = "none";
         document.getElementById("bitcamp_projects").style.display = "block";
-    }
+
+        document.getElementById("word1").style.textDecoration = "none";
+
+        document.getElementById("word2").style.textDecoration = "none";
+
+        document.getElementById("word3").style.textDecoration = "bold";
+        document.getElementById("word3").style.font-size += 5;
+
 }
