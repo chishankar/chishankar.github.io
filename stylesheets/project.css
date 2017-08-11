@@ -12,6 +12,15 @@
   color:#c7254e;
 }
 
+.btn{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.bigger{
+  font: 20px;
+}
+
 .format{
   padding-left: 40px;
 }
