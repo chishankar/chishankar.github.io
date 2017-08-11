@@ -12,7 +12,6 @@ function SwitchToClass(classnum) {
     document.getElementById("bitcamp_projects").style.display = "none";
 
     document.getElementById("word1").style.textDecoration = "underline";
-
     document.getElementById("word2").style.textDecoration = "none";
     document.getElementById("word3").style.textDecoration = "none";
   } else if (classnum === 2) {
@@ -22,9 +21,7 @@ function SwitchToClass(classnum) {
     document.getElementById("bitcamp_projects").style.display = "none";
 
     document.getElementById("word1").style.textDecoration = "none";
-
     document.getElementById("word2").style.textDecoration = "underline";
-
     document.getElementById("word3").style.textDecoration = "none";
   } else if (classnum === 3) {
     console.log("Switching to bitcamp_projects");
@@ -33,9 +30,7 @@ function SwitchToClass(classnum) {
     document.getElementById("bitcamp_projects").style.display = "block";
 
     document.getElementById("word1").style.textDecoration = "none";
-
     document.getElementById("word2").style.textDecoration = "none";
-
     document.getElementById("word3").style.textDecoration = "underline";
   }
 }
