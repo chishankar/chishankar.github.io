@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
-    // console.log( "ready!" );
-    SwitchToClass(1);
+     console.log( "ready lets go!" );
+     SwitchToClass(1);
 });
 
 function SwitchToClass(classnum){
