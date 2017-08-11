@@ -21,3 +21,11 @@ body p {
 h2 {
   text-align: center;
 }
+
+h1{
+  color: white;
+}
+
+.jumbotron p{
+  color: white;
+}
