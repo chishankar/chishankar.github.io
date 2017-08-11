@@ -1,11 +1,9 @@
-
 $(document).ready(function() {
      console.log( "ready lets go!" );
      SwitchToClass(1);
 });
 
 function SwitchToClass(classnum){
-
 
     if(classnum === 1) {
         console.log("Switching to video 1");
