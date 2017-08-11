@@ -52,3 +52,10 @@ h2{
 .panel-success>.panel-heading{
   color: black;
 }
+
+.panel-info>.panel-heading{
+  color: black;
+}
+.panel-danger>.panel-heading{
+  color: black;
+}
