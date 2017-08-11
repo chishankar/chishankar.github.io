@@ -29,6 +29,10 @@
     border-color: #337ab7;
 }*/
 
+.same_line p{
+  display: inline;
+}
+
 .concepts{
   color: grey;
   line-height: 0;
