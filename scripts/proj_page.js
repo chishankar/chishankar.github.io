@@ -1,6 +1,6 @@
 $(document).ready(function() {
   console.log("ready lets go!");
-  SwitchToClass(1);
+  SwitchToClass(2);
 });
 
 function SwitchToClass(classnum) {
