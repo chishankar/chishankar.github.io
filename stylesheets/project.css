@@ -12,6 +12,11 @@
   color:#c7254e;
 }
 
+.selection code{
+  background-color:#d9edf7;
+  color:#286090;
+}
+
 .btn{
   padding-left: 100px;
   padding-right: 100px;
