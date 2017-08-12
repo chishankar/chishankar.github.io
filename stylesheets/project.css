@@ -17,6 +17,11 @@
   color:#286090;
 }
 
+.languages code{
+  color: #3c763d;
+  background-color: #dff0d8;
+}
+
 .btn{
   padding-left: 100px;
   padding-right: 100px;
