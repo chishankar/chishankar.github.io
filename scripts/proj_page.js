@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  console.log("ready lets go!");
+  console.log("Start Switching");
   SwitchToClass(2);
 });
 
