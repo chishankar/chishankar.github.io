@@ -20,3 +20,12 @@
 .banner h2{
   display: inline;
 }
+
+.green{
+  background-color: green;
+}
+
+.orange{
+  background-color: #DC7633;
+  border-color: inherit;
+}
