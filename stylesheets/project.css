@@ -40,6 +40,30 @@
 /*.panel-default {
     border-color: #337ab7;
 }*/
+.green{
+  background-color: #28B463;
+  border-color: inherit;
+}
+
+.orange{
+  background-color: #DC7633;
+  border-color: inherit;
+}
+
+.red{
+  background-color: #CB4335;
+  border-color: inherit;
+}
+
+.blue{
+  background-color: #2E86C1;
+  border-color: inherit;
+}
+
+.darkblue{
+  background-color: #273746;
+  border-color: inherit;
+}
 
 .same_line p{
   display: inline;
