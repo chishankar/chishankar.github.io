@@ -1,3 +1,11 @@
 .bottom{
   line-height: 10px;
 }
+
+#element1 {
+  float:left;margin-right:10px;
+}
+
+#element2 {
+  float:left;
+} 
