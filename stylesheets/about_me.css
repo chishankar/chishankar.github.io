@@ -22,7 +22,8 @@
 }
 
 .green{
-  background-color: green;
+  background-color: #28B463;
+  border-color: inherit;
 }
 
 .orange{
@@ -32,5 +33,15 @@
 
 .red{
   background-color: #CB4335;
+  border-color: inherit;
+}
+
+.blue{
+  background-color: #2E86C1;
+  border-color: inherit;
+}
+
+.darkblue{
+  background-color: #273746;
   border-color: inherit;
 }
