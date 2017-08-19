@@ -8,4 +8,8 @@
 
 #element2 {
   float:left;
-} 
+}
+
+.btn{
+  border-radius: 0;
+}
