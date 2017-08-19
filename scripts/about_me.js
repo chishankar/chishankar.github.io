@@ -10,15 +10,34 @@ function SwitchToClass(classnum) {
     console.log("Switching to class_projects");
     document.getElementById("completed_course").style.display = "block";
     document.getElementById("current_course").style.display = "none";
+    document.getElementById("school_activities").style.display = "none";
+
 
     document.getElementById("button1").innerHTML= '<b>Completed Course Work</b>';
     document.getElementById("button2").innerHTML= 'Current Course Work';
+    document.getElementById("button3").innerHTML= 'School Activities';
+
   } else if (classnum === 2) {
     console.log("Switching to personal_projects");
     document.getElementById("completed_course").style.display = "none";
     document.getElementById("current_course").style.display = "block";
+    document.getElementById("school_activities").style.display = "none";
 
-    document.getElementById("word1").innerHTML= 'Completed Course Work';
-    document.getElementById("word2").innerHTML= '<b>Current Course Work</b>';
+
+    document.getElementById("button1").innerHTML= 'Completed Course Work';
+    document.getElementById("button2").innerHTML= '<b>Current Course Work</b>';
+    document.getElementById("button3").innerHTML= 'School Activities';
+
+  }else if (classnum === 3) {
+    console.log("Switching to personal_projects");
+    document.getElementById("completed_course").style.display = "none";
+    document.getElementById("current_course").style.display = "none";
+    document.getElementById("school_activities").style.display = "block";
+
+
+    document.getElementById("button1").innerHTML= 'Completed Course Work';
+    document.getElementById("button2").innerHTML= '<b>Current Course Work</b>';
+    document.getElementById("button3").innerHTML= 'School Activities';
+
   }
 }
