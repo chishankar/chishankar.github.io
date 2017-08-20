@@ -25,6 +25,5 @@ function SwitchToClass(classnum) {
     document.getElementById("completed_course").style.display = "none";
     document.getElementById("current_course").style.display = "none";
     document.getElementById("school_activities").style.display = "block";
-
   }
 }
