@@ -9,6 +9,11 @@
 .navbar {
   margin-bottom: 0;
 }
+
+.reduce{
+  width:30%;
+}
+
 .btn{
   padding-left: 100px;
   padding-right: 100px;
