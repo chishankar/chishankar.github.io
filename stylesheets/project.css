@@ -97,6 +97,10 @@ p{
   color: grey;
   font-size: 15px;
 }
+
+.reduce{
+  width:30%;
+}
 div p{
   padding-left: 0;
 }
