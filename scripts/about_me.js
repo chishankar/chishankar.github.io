@@ -8,7 +8,6 @@ $(document).ready(function() {
   document.getElementById("api").style.display = "none";
   document.getElementById("certifications").style.display = "none";
   document.getElementById("design").style.display="none";
-
 });
 
 function SwitchToClass(classnum) {
@@ -33,23 +32,22 @@ function SwitchToClass(classnum) {
   }
 }
 
-function SwitchToExtra(classnum) {
-
-  if (classnum === 1) {
+function SwitchToExtra(heading) {
+  if (heading === 1) {
     console.log("Switching to languages");
-    document.getElementById("languages").style.display = "block";
+    document.getElemheadingentById("languages").style.display = "block";
     document.getElementById("api").style.display = "none";
     document.getElementById("certifications").style.display = "none";
     document.getElementById("design").style.display="none";
 
-  } else if (classnum === 2) {
+  } else if (heading === 2) {
     console.log("Switching to api");
     document.getElementById("languages").style.display = "none";
     document.getElementById("api").style.display = "block";
     document.getElementById("certifications").style.display = "none";
     document.getElementById("design").style.display="none";
 
-  }else if (classnum === 3) {
+  }else if (heading === 3) {
     console.log("Switching to certifications");
     document.getElementById("languages").style.display = "none";
     document.getElementById("api").style.display = "none";
@@ -57,7 +55,7 @@ function SwitchToExtra(classnum) {
     document.getElementById("design").style.display="none";
   }
 
-}else if (classnum === 4) {
+}else if (heading) {
   console.log("Switching to designs");
   document.getElementById("languages").style.display = "none";
   document.getElementById("api").style.display = "none";
