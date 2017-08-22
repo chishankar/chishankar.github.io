@@ -26,6 +26,9 @@
   width: 300px;
 }
 
+.tab{
+  padding-left: 10px;
+}
 .shorten{
   float: left;
   padding-left: 100px;
