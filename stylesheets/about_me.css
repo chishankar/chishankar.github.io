@@ -8,6 +8,7 @@
 
 #element2 {
   float:left;
+  padding-bottom: 70px;
 }
 
 .btn{
@@ -22,7 +23,9 @@
   display:inline-block;
 }
 
-
+.btn-block+.btn-block {
+    margin-top: 0px;
+}
 
 .btn-danger{
   width: 300px;
