@@ -17,6 +17,10 @@
   width: inherit;
 }
 
+.banner{
+  width: 300px;
+}
+
 .banner h2{
   display: inline;
 }

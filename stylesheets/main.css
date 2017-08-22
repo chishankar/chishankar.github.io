@@ -23,6 +23,10 @@
   border-color: inherit;
 }
 
+.banner{
+  width: 300px;
+}
+
 div p {
   color: black;
 }

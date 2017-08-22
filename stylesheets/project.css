@@ -79,6 +79,9 @@
   display: inline;
 }
 
+.banner{
+  width: 300px;
+}
 .concepts{
   color: grey;
   line-height: 0;
