@@ -19,6 +19,12 @@
 
 .banner{
   width: 300px;
+  float: left;
+}
+
+.shorten{
+  float: left;
+  padding-left: 100px;
 }
 
 .banner h2{
