@@ -19,7 +19,7 @@
 
 .banner{
   width: 300px;
-  float: left;
+  display:inline-block;
 }
 
 
@@ -32,7 +32,6 @@
   padding-left: 10px;
 }
 .shorten{
-  float: left;
   padding-left: 100px;
   padding-top: 5px;
 }
@@ -75,6 +74,10 @@
   background-color: #839192;
   border-color: inherit;
   color:white;
+}
+
+.left{
+  float:left;
 }
 
 #header{
