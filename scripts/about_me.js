@@ -32,7 +32,7 @@ function SwitchToClass(classnum) {
 
   } else if (classnum === 4) {
     console.log("Switching to languages");
-    document.getElemheadingentById("languages").style.display = "block";
+    document.getElementById("languages").style.display = "block";
     document.getElementById("api").style.display = "none";
     document.getElementById("certifications").style.display = "none";
     document.getElementById("design").style.display = "none";
