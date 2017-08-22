@@ -7,7 +7,7 @@ $(document).ready(function() {
   document.getElementById("languages").style.display = "none";
   document.getElementById("api").style.display = "none";
   document.getElementById("certifications").style.display = "none";
-  document.getElementById("design").style.display="none";
+  document.getElementById("design").style.display = "none";
 });
 
 function SwitchToClass(classnum) {
@@ -24,42 +24,37 @@ function SwitchToClass(classnum) {
     document.getElementById("current_course").style.display = "block";
     document.getElementById("school_activities").style.display = "none";
 
-  }else if (classnum === 3) {
+  } else if (classnum === 3) {
     console.log("Switching to personal_projects");
     document.getElementById("completed_course").style.display = "none";
     document.getElementById("current_course").style.display = "none";
     document.getElementById("school_activities").style.display = "block";
+
   } else if (heading === 4) {
     console.log("Switching to languages");
     document.getElemheadingentById("languages").style.display = "block";
     document.getElementById("api").style.display = "none";
     document.getElementById("certifications").style.display = "none";
-    document.getElementById("design").style.display="none";
+    document.getElementById("design").style.display = "none";
 
   } else if (heading === 5) {
     console.log("Switching to api");
     document.getElementById("languages").style.display = "none";
     document.getElementById("api").style.display = "block";
     document.getElementById("certifications").style.display = "none";
-    document.getElementById("design").style.display="none";
+    document.getElementById("design").style.display = "none";
 
-  }else if (heading === 6) {
+  } else if (heading === 6) {
     console.log("Switching to certifications");
     document.getElementById("languages").style.display = "none";
     document.getElementById("api").style.display = "none";
     document.getElementById("certifications").style.display = "block";
-    document.getElementById("design").style.display="none";
+    document.getElementById("design").style.display = "none";
+  } else (heading == 7) {
+    console.log("Switching to designs");
+    document.getElementById("languages").style.display = "none";
+    document.getElementById("api").style.display = "none";
+    document.getElementById("certifications").style.display = "none";
+    document.getElementById("design").style.display = "block";
   }
-
-}else if (heading == 7) {
-  console.log("Switching to designs");
-  document.getElementById("languages").style.display = "none";
-  document.getElementById("api").style.display = "none";
-  document.getElementById("certifications").style.display = "none";
-  document.getElementById("design").style.display="block";
-}
-}
-
-function SwitchToExtra(heading) {
-
 }
