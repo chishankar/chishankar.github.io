@@ -3,11 +3,12 @@
 }
 
 #element1 {
-  float:left;margin-right:10px;
+  float:left;
+  margin-right:10px;
 }
 
 #element2 {
-  float:left;
+  float:right;
   padding-bottom: 70px;
 }
 
