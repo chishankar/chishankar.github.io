@@ -22,6 +22,10 @@
   float: left;
 }
 
+.btn-danger{
+  width: 300px;
+}
+
 .shorten{
   float: left;
   padding-left: 100px;
