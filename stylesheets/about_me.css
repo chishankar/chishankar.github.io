@@ -44,31 +44,37 @@
 .green{
   background-color: #28B463;
   border-color: inherit;
+  color:white;
 }
 
 .orange{
   background-color: #DC7633;
   border-color: inherit;
+  color:white;
 }
 
 .red{
   background-color: #CB4335;
   border-color: inherit;
+  color:white;
 }
 
 .blue{
   background-color: #2E86C1;
   border-color: inherit;
+  color:white;
 }
 
 .darkblue{
   background-color: #273746;
   border-color: inherit;
+  color:white;
 }
 
 .grey{
   background-color: #839192;
   border-color: inherit;
+  color:white;
 }
 
 #header{
