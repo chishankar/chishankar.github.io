@@ -50,6 +50,7 @@ function SwitchToClass(classnum) {
     document.getElementById("api").style.display = "none";
     document.getElementById("certifications").style.display = "block";
     document.getElementById("design").style.display = "none";
+    
   } else if (heading == 7) {
     console.log("Switching to designs");
     document.getElementById("languages").style.display = "none";
