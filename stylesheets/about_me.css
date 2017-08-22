@@ -8,8 +8,9 @@
 }
 
 #element2 {
-  float:right;
+  float:left;
   padding-bottom: 70px;
+  padding-left: 50px;
 }
 
 .btn{
