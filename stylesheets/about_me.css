@@ -7,7 +7,11 @@
 }
 
 button #button1{
-    background: olive;
+    background: rgb(38, 151, 153);
+}
+
+.cont{
+  padding-left: 10px;
 }
 
 #element1 {
