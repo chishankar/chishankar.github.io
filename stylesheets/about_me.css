@@ -1,3 +1,18 @@
+#buttons{
+  padding-bottom: 20px;
+}
+
+#element1 {
+  float:left;
+  margin-right:10px;
+}
+
+#element2 {
+  float:left;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+
 .bottom{
   line-height: 10px;
 }
@@ -12,21 +27,6 @@ button #button1{
 
 .cont{
   padding-left: 10px;
-}
-
-#buttons{
-  padding-bottom: 20px;
-}
-
-#element1 {
-  float:left;
-  margin-right:10px;
-}
-
-#element2 {
-  float:left;
-  padding-bottom: 20px;
-  padding-left: 50px;
 }
 
 .btn{
@@ -49,9 +49,8 @@ button #button1{
   width: 300px;
 }
 
-.tab{
-  padding-left: 10px;
-}
+
++1
 .shorten{
   padding-left: 100px;
   padding-top: 5px;
