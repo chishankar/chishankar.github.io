@@ -32,6 +32,12 @@ h1, h2, h3, h4, h5, h6{
 {
     padding: 80px 0px;
 }
+
+.col-sm-6{
+  align-items: center;
+  float: none;
+  margin: 0 auto;
+}
 #loader {
   position: absolute;
   left: 50%;
@@ -102,6 +108,9 @@ HEADER
     border:0px;
     padding: 20px 0;
     transition: all 0.3s;
+}
+.navbar-collapse{
+  color: black;
 }
 
 .summary{
