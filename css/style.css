@@ -106,7 +106,6 @@ HEADER
 .navbar-default {
     background-color: transparent;
     border:0px;
-    padding: 20px 0;
     transition: all 0.3s;
 }
 .navbar-collapse{
@@ -119,12 +118,14 @@ HEADER
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover
 {
-    color: #002F2F;
+    color: white;
+
 }
 
 .top-nav-collapse {
     padding: 0;
     background: rgba(64,75,97, 0.9);
+    color: black;
 }
 
 .logo-dec
@@ -140,7 +141,7 @@ HEADER
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus
 {
-    color: #fff;
+    color: white;
 }
 .navbar-brand {
     padding: 0px;

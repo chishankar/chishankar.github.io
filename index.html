@@ -37,6 +37,8 @@
               </button>
               </div>
               <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="menu-dropdown">
+
                 <ul class="nav navbar-nav navbar-left">
                   <li class="active"><a href="#main-header">Home</a></li>
                   <li class=""><a href="#about">About</a></li>
@@ -45,6 +47,8 @@
                   <li class=""><a href="#blog">Extracurriculars</a></li>
                   <li class=""><a href="#contact">Contact Me</a></li>
                 </ul>
+              </div>
+
               </div>
             </div>
           </nav>
@@ -61,8 +65,7 @@
         </div>
       </div>
     </div>
-    <!--/ HEADER-->
-    <!---->
+
     <section id="about" class="section-padding wow fadeIn delay-05s">
       <div class="container">
         <div class="row">
@@ -118,8 +121,8 @@
               <div class="card blue-grey darken-1">
                 <div class="card-content white-text">
                   <span class="card-title">Amazon Mturks Crowd Source Tool <h6>Summer 2017 | <code>Python</code></h6></span>
-                  <p><b>Purpose: </b>This project This python project utilizes the <code>Amazon Mechanical Turks Boto API</code> to make a crowd sourcing
-                  research tool with an auto-granting qualification request workflow that checks user answers against an answer_key in XML format.</p>
+                  <p><b>Purpose: </b>This project This python project utilizes the <code>Amazon Mechanical Turks Boto API</code> to make a crowd sourcing research tool with an auto-granting qualification request workflow that checks user answers against
+                    an answer_key in XML format.</p>
                 </div>
                 <div class="card-action">
                   <a target="_blank" href="https://github.com/chishankar/MTurksWorkflow">Github Repository</a>
@@ -131,8 +134,8 @@
               <div class="card blue-grey darken-1">
                 <div class="card-content white-text">
                   <span class="card-title">Personal Website<h6>Summer 2017 | <code>HTML</code>, <code>CSS</code>, <code>Javascript</code></h6></span>
-                  <p><b>Purpose: </b>This website is a way to organize all my projects, experience, host daily content useful for me, and practice some of what I learnt
-                  at my Summer 2017 Internship with the Human Computer Interaction Lab at the University of Maryland.</p>
+                  <p><b>Purpose: </b>This website is a way to organize all my projects, experience, host daily content useful for me, and practice some of what I learnt at my Summer 2017 Internship with the Human Computer Interaction Lab at the University
+                    of Maryland.</p>
                 </div>
                 <div class="card-action">
                   <a target="_blank" href="https://github.com/chishankar/chishankar.github.io">Github Repository</a>
@@ -144,8 +147,7 @@
               <div class="card blue-grey darken-1">
                 <div class="card-content white-text">
                   <span class="card-title">Twitter-Spotify Music<h6>Summer 2017 | <code>Python</code></h6></span>
-                  <p><b>Purpose: </b>Allows an audience to collectively contribute to a public Spotify Playlist by Private Messaging a public twitter account.
-                  This project utilizes the <code>Twitter API</code> and <code>Spotify API</code>.</p>
+                  <p><b>Purpose: </b>Allows an audience to collectively contribute to a public Spotify Playlist by Private Messaging a public twitter account. This project utilizes the <code>Twitter API</code> and <code>Spotify API</code>.</p>
                 </div>
               </div>
             </div>
@@ -154,9 +156,7 @@
               <div class="card blue-grey darken-1">
                 <div class="card-content white-text">
                   <span class="card-title">Twitter Analytics Tool <h6>Summer 2017 | <code>Python</code></h6></span>
-                  <p><b>Purpose: </b>Used the <code>Twitter API </code>to make an analsis tool for businesses to be able to track sentiment about their
-                  products or other current events across twitter community. The program runs each live incoming tweet <code>JSON</code> through a sentiment analysis
-                  tool assigning it a number and then sorts it respectively into region and sentiment.</p>
+                  <p><b>Purpose: </b>Used the <code>Twitter API </code>to make an analsis tool for businesses to be able to track sentiment about their products or other current events across twitter community. The program runs each live incoming tweet <code>JSON</code>                    through a sentiment analysis tool assigning it a number and then sorts it respectively into region and sentiment.</p>
                 </div>
               </div>
             </div>
@@ -165,8 +165,7 @@
               <div class="card blue-grey darken-1">
                 <div class="card-content white-text">
                   <span class="card-title">Motion Sickness Study Tool <h6>Spring 2017 | <code>C++11</code></h6></span>
-                  <p><b>Purpose: </b>Designed and programmed virtual reality program using <code>C++11</code> through Visual Studio integrated with
-                  Unreal Engine to quantify motion sickness.</p>
+                  <p><b>Purpose: </b>Designed and programmed virtual reality program using <code>C++11</code> through Visual Studio integrated with Unreal Engine to quantify motion sickness.</p>
                 </div>
               </div>
             </div>
@@ -184,8 +183,6 @@
         </div>
       </div>
     </section>
-    <!---->
-    <!---->
     <section id="service" class="section-padding wow fadeInUp delay-05s">
       <div class="container">
         <div class="row">
@@ -203,7 +200,7 @@
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="service-item">
               <h3>Organization of Programming Languages<h6>CMSC330 | Fall 2017 | Current</h6></h3>
-              <a id="330p"  onclick="SwitchProjects(330);">Class Projects...</a>
+              <a id="330p" onclick="SwitchProjects(330);">Class Projects...</a>
             </div>
           </div>
           <div id="class330">
@@ -212,7 +209,7 @@
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="service-item">
               <h3>Introduction to Computer Systems<h6>CMSC 216 | Summer 2017</h6></h3>
-              <a id="216p"  onclick="SwitchProjects(216);">Class Projects...</a>
+              <a id="216p" onclick="SwitchProjects(216);">Class Projects...</a>
             </div>
           </div>
           <div id="class216">
@@ -305,15 +302,15 @@
               <li>
                 <h4>Baby Names</h4>
                 <div class="concepts"><i>Concepts: <code>Graph</code>, <code>Hashmap</code>, <code>Map</code>, <code>Parsing Websites</code>, <code>Threads</code></i></div>
-                <div>This project used a Map with a nested HashMap data structure to store information. In addition, this project utilized threads and thread synchronization techniques to parse websites for popular baby names and store them in the data
-                  structure for easy access. </div>
+                <div>This project used a Map with a nested HashMap data structure to store information. In addition, this project utilized threads and thread synchronization techniques to parse websites for popular baby names and store them in the data structure
+                  for easy access. </div>
               </li>
             </ul>
           </div>
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="service-item">
               <h3>Introduction to Object Oriented Programming<h6>CMSC 131 |Fall </h6></h3>
-              <a id="131p"  onclick="SwitchProjects(131);">Class Projects...</a>
+              <a id="131p" onclick="SwitchProjects(131);">Class Projects...</a>
             </div>
           </div>
           <div id="class131">
@@ -484,24 +481,24 @@
     <!---->
     <section id="contact" class="section-padding wow fadeInUp delay-05s">
       <div class="container">
-            <p>
-              <b class="logo-dec">E-mail:</b><a href="mailto:chishankar@gmail.com">     chishankar@gmail.com</a>
-              <br />
-              <b class="logo-dec">LinkedIn:</b> <a target="_blank" href="https://www.linkedin.com/in/chirag-shankar/">      https://www.linkedin.com/in/chirag-shankar/</a>
-              <br />
-              <b class="logo-dec">Github:</b> <a target="_blank" href="https://github.com/chishankar">      https://github.com/chishankar</a>
-            </p>
-          </div>
+        <p>
+          <b class="logo-dec">E-mail:</b><a href="mailto:chishankar@gmail.com">     chishankar@gmail.com</a>
+          <br />
+          <b class="logo-dec">LinkedIn:</b> <a target="_blank" href="https://www.linkedin.com/in/chirag-shankar/">      https://www.linkedin.com/in/chirag-shankar/</a>
+          <br />
+          <b class="logo-dec">Github:</b> <a target="_blank" href="https://github.com/chishankar">      https://github.com/chishankar</a>
+        </p>
+      </div>
     </section>
 
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/wow.js"></script>
   <script src="js/custom.js"></script>
   <script src="js/projects.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
 
 </body>
