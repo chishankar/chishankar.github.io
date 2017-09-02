@@ -20,6 +20,13 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    background: #be9e22;
+    opacity: .9;
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
