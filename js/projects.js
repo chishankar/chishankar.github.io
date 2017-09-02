@@ -6,6 +6,22 @@ $(document).ready(function() {
   document.getElementById("class131").style.display = "none";
 });
 
+// $(document).ready(function(){
+//    var scroll_start = 0;
+//    var startchange = $('#startchange');
+//    var offset = startchange.offset();
+//     if (startchange.length){
+//    $(document).scroll(function() {
+//       scroll_start = $(this).scrollTop();
+//       if(scroll_start > offset.top) {
+//           $(".menu").css('color', 'black');
+//        } else {
+//           $('.menu').css('color', 'inherit');
+//        }
+//    });
+//     }
+// });
+
 var cmsc330 = 0;
 var cmsc216 = 0;
 var cmsc132= 0;
