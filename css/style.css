@@ -21,6 +21,11 @@ q:before, q:after {
 	content: none;
 }
 
+.img-circle {
+    border-radius: 50%;
+		max-width: 25%;
+}
+
 @media only screen and (min-width: 993px)
 materialize.min.css:6
 .container {
