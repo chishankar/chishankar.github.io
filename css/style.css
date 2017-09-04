@@ -24,6 +24,7 @@ q:before, q:after {
 .img-circle {
     border-radius: 50%;
 		max-width: 25%;
+		margin-top: 10%;
 }
 
 @media only screen and (min-width: 993px)
