@@ -2,6 +2,10 @@
   padding:2%;
 }
 
+.card-content a{
+  padding-right: 2%;
+}
+
 .tester{
   padding-left: 25%;
 }
