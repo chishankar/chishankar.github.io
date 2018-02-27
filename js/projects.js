@@ -4,6 +4,9 @@ $(document).ready(function() {
   document.getElementById("class216").style.display = "none";
   document.getElementById("class132").style.display = "none";
   document.getElementById("class131").style.display = "none";
+  document.getElementById("class423").style.display = "none";
+  document.getElementById("class420").style.display = "none";
+  document.getElementById("class389K").style.display = "none";
 });
 
 // $(document).ready(function(){
@@ -26,6 +29,9 @@ var cmsc330 = 0;
 var cmsc216 = 0;
 var cmsc132= 0;
 var cmsc131 = 0;
+var cmsc423 = 0;
+var cmsc420 = 0;
+var cmsc389K = 0;
 
 function SwitchProjects(classnum) {
 
@@ -68,6 +74,33 @@ function SwitchProjects(classnum) {
       cmsc131 = 0;
     }
 
+  }else if (classnum === 423) {
+    if (cmsc423 === 0){
+      document.getElementById("class423").style.display = "block";
+      cmsc423 = 1;
+
+    } else{
+      document.getElementById("class423").style.display = "none";
+      cmsc423 = 0;
+    }
+  }else if (classnum === 420) {
+    if (cmsc420 === 0){
+      document.getElementById("class420").style.display = "block";
+      cmsc420 = 1;
+
+    } else{
+      document.getElementById("class420").style.display = "none";
+      cmsc420 = 0;
+    }
+  }else if (classnum === 389) {
+    if (cmsc389K === 0){
+      document.getElementById("class389K").style.display = "block";
+      cmsc389K = 1;
+
+    } else{
+      document.getElementById("class389K").style.display = "none";
+      cmsc389K = 0;
+    }
   }
 
 }
