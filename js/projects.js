@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  console.log("Starting Clean");
   document.getElementById("class330").style.display = "none";
   document.getElementById("class216").style.display = "none";
   document.getElementById("class132").style.display = "none";
