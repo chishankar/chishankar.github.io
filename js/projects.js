@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  console.log(classes.CMSC132);
+  console.log(classes);
   document.getElementById("class330").style.display = "none";
   document.getElementById("class216").style.display = "none";
   document.getElementById("class132").style.display = "none";
@@ -8,23 +10,7 @@ $(document).ready(function() {
   document.getElementById("class389K").style.display = "none";
 });
 
-// $(document).ready(function(){
-//    var scroll_start = 0;
-//    var startchange = $('#startchange');
-//    var offset = startchange.offset();
-//     if (startchange.length){
-//    $(document).scroll(function() {
-//       scroll_start = $(this).scrollTop();
-//       if(scroll_start > offset.top) {
-//           $(".menu").css('color', 'black');
-//        } else {
-//           $('.menu').css('color', 'inherit');
-//        }
-//    });
-//     }
-// });
 
-var cmsc330 = 0;
 var cmsc216 = 0;
 var cmsc132= 0;
 var cmsc131 = 0;
