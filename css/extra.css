@@ -1,0 +1,12 @@
+.btn{
+    margin-bottom: 5px;
+    background-color: #c2a435;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #c2a435;
+}
+
+.btn:focus, .btn-large:focus, .btn-floating:focus {
+    background-color: #c2a435;
+}

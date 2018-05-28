@@ -852,6 +852,8 @@ body{
 }
 }
 
-/*
-    Author URL: https://bootstrapmade.com
-*/
+
+
+#course_list .card {
+    padding: 20px;
+}

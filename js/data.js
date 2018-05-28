@@ -1,3 +1,91 @@
+var jobs = {
+    "UMD":{
+        "role":"Teaching Assistant",
+        "title":"UMD CS Department",
+        "description":['Created syllabus, projects, and give lectures for CMSC389K: Full Stack Web Development with Node.js','Co-Teach 30 students the fundamental concepts from the syllabus','Syllabus can be found here: https://github.com/UMD-CS-STICs/389Kspring18'],
+        "status":true,
+        "year":"Spring 2018 - Current",
+        "links":{
+            "STICS":"http://stics.umd.edu/catalog.html"
+        },
+        "img":"img/UMD.png"},
+    "MPLEX":{
+        "role":"Full-Stack Developer",
+        "title":"MPLEX Virtual Reality",
+        "year":"Fall 2017 - Current",
+        "description":['Utilized React.js to build full stack website for company and game website','Research for user scalability and data analysis','Helped to build motional sickness virtual reality study tool for psychology department'],
+        "status":true,
+        "links":{
+            "MPLEXVR":"http://mplexvr.com/#/",
+            "Core Disruption":"http://coredisruption.com/"
+        },
+        "img":"img/MPLEX_logo.png"},
+    "STAMP":{
+        "role":"IT Programmer/Analyst",
+        "title":"STAMP IT Department",
+        "description":["Set up AV/IT Equipment for events","Install/troubleshoot programs and problems on different OS's, softwares, and networks","Employed wireless/direct solutions"],
+        "status":true,
+        "year":"Fall 2016 - Current",
+        "links":{
+            "STAMP IT":"http://thestamp.umd.edu/the_stamp_student_union/technology_services"
+        },
+        "img":"img/stamp.jpg"},
+    "HCIL":{
+        "role":"Software Engineering Intern",
+        "title":"Human Computer Interaction Lab",
+        "description":["Helped to scale and improve UI for the projectsidewalk.io website for CHI2018","Created AWS Mechanical Turk Crowd sourcing tool","Helped with ground truth analysis for truth testing for research analysis"],
+        "status":false,
+        "year":"Summer 2017",
+        "links":{
+            "HCIL":"https://hcil.umd.edu/",
+            "Project Sidewalk":"http://sidewalk.umiacs.umd.edu/"
+        },
+        "img":"img/HCIL-umd.png"},
+    "Mathnasium":{
+        "role":"Math Tutor",
+        "title":"Mathnasium <br />",
+        "description":["Math tutor for grades k-12","Organized and ran STEM/MATH camps"],
+        "status":false,
+        "year":"Fall 2011 - Spring 2015",
+        "links":{
+            "":""
+        },
+        "img":"img/mathnasium.png"},
+    "Hitchikers":{
+        "role":"Build Lead",
+        "title":"The Hitchhikers, FRC",
+        "description":["Designed, modeled, and created pneumatic,hydraulic, electical, and mechanical systems",'Programmed and troubleshooted robot using Java and C++ default packages'],
+        "status":false,
+        "links":{
+            "The Hitchikers":"http://team2059.org/"
+        },
+        "year":"Spring 2009 - Summer 2015",
+        "img":"img/Hitchhikers.png"},
+};
+
+var experiences = {
+    "Bitcamp2018":{
+        "title":"Bitcamp 2018",
+        "year":"Spring 2018",
+        "img":"img/bitcamp2018.jpg",
+        "links":null},
+    "HackUMBC2018":{
+        "title":"HackUMBC 2017",
+        "year":"Fall 2018",
+        "img":"img/UMBC.jpg",
+        "links":null},
+    "Medhacks2017":{
+        "title":"MedHacks 2017",
+        "year":"Fall 2017",
+        "img":"img/medhacks.jpg",
+        "links":null},
+    "Bitcamp2017":{
+        "title":"Bitcamp 2017",
+        "year":"Spring 2017",
+        "img":"img/bitcamp2017.jpg",
+        "links":null},
+};
+
 var classes = { 
     "CMSC389K":{
         "title": "Full-Stack Web Development with Node.js",
@@ -20,8 +108,7 @@ var classes = {
                 "title":"50-States Game",
                 "description":"Game to test users on all 50 states. Implemented using JQuery and AJAX"
             }
-        ]
-    },    
+        ]},    
     "CMSC423":{
         "title": "Bioinformatics Algorithms, Databases, and Tools",
         "languages": ["Python"],
@@ -29,50 +116,49 @@ var classes = {
         "projects": [
             {
                 "title":"Lloyd Algorithm for K-means Clustering",
-                "description":""
+                "description":"Clustering heuristics for the k-Means Clustering Problem"
             },
             {
                 "title":"Global Alignment of DNA Sequences for Evolutionary Similarity",
-                "description":""
+                "description":"Find the highest-scoring alignment between two strings using a scoring matrix"
             },
             {
                 "title":"Inverse Burrows-Wheeler Transform",
-                "description":""
+                "description":"Reconstruct a string from its Burrows-Wheeler transform."
             },
             {
                 "title":"De Bruijn Graph from a String",
-                "description":""
+                "description":"Given a genome Text, PathGraphk(Text) is the path consisting of |Text| - k + 1 edges, where the i-th edge of this path is labeled by the i-th k-mer in Text and the i-th node of the path is labeled by the i-th (k - 1)-mer in Text. The de Bruijn graph DeBruijnk(Text) is formed by gluing identically labeled nodes in PathGraphk(Text)"
             },
             {
                 "title":"Cyclopeptide Sequencing",
-                "description":""
+                "description":"In “Compute the Number of Peptides of Given Total Mass”, we first encountered the problem of reconstructing a cyclic peptide from its theoretical spectrum; this problem is called the Cyclopeptide Sequencing Problem and is given below. It is solved by the following algorithm."
             },
             {
                 "title":"Greedy Motif Search",
-                "description":""
+                "description":"A collection of strings BestMotifs resulting from running GreedyMotifSearch(Dna, k, t). If at any step you find more than one Profile-most probable k-mer in a given string, use the one occurring first."
             },
             {
                 "title":"Find a Profile-most Probable k-mer in a String ",
-                "description":""
+                "description":"Multiple Profile-most probable k-mers in Text, then we select the first such k-mer occurring in Text."
             },
             {
                 "title":"Speeding up motif finding",
-                "description":""
+                "description":"Finding motif in Kmer"
             },
             {
                 "title":"Find all occurences of a pattern in a string",
-                "description":""
+                "description":"Find the Most Frequent Words in a String"
             },
             {
                 "title":"Find a position in a genome minimizing the skew",
-                "description":""
+                "description":"Skew in DNA Replication"
             },
             {
                 "title":"Counting DNA Nucleotides",
-                "description":""
+                "description":"Finding the count of each nucleotide in a sequence"
             }
-        ]
-    },
+        ]},
     "CMSC420":{
         "title": "Data Structures",
         "languages": ["Java"],
@@ -90,14 +176,12 @@ var classes = {
                 "title":"Heaps",
                 "description":"Implement Min Heaps, Priority Queues, and Linked BST"
             }
-        ]
-    },
+        ]},
     "CMSC351":{
         "title": "Algorithms",
         "languages": [],
         "semester": "Fall 2017",
-        "projects": []
-    },
+        "projects": []},
     "CMSC330":{
         "title": "Organization of Programming Languages",
         "languages": ["Ruby","OCaml","Prolog"],
@@ -131,8 +215,7 @@ var classes = {
             "title":"WordNet",
             "description":"A semantic lexicon for the English Language that groups words in sets of Synsets, Hypernyms, and Hyponyms. Creating the backend for a semantic library. The goal of this project was to get more familiar with Ruby, Hash data structures, and REGEX."
             }
-        ]
-    },
+        ]},
     "CMSC216":{
         "title": "Introduction to Computer Systems",
         "languages": ["C", "Assembly"],
@@ -166,14 +249,12 @@ var classes = {
             "title":"Grades Calculator",
             "description":"A grades calculator, designed to hold a students grades, drop the lowest scores, calculate the average. etc."
             }
-        ]
-    },
+        ]},
     "CMSC250":{
         "title": "Discrete Structures",
         "languages": [],
         "semester": "Spring 2017",
-        "projects": []
-    },
+        "projects": []},
     "CMSC132":{
         "title": "Object Oriented Programming II",
         "languages": ["Java"],
@@ -215,8 +296,7 @@ var classes = {
             "title":"Game Conference Manager",
             "description":"This project was an introduction to organizing data structures. We created a conference class, which consisted of game objects, which consisted of player objects."
             }
-        ]
-    },
+        ]},
     "CMSC131":{
         "title": "Introduction to Object Oriented Programming",
         "languages": ["Java"],
@@ -250,6 +330,121 @@ var classes = {
             "title":"CrypoQuiz & Multilingual Greetings",
             "description":"This project turned a string into cipher code based on certain specifications, such as shifting the ASCII by 32 characters."
             }        
-        ]
-    }
-}
+        ]}
+};
+''
+var extra_projects={
+    "AmazonMturksCrowdSourceTool":{
+        "title":"Amazon Mturks Crowd Source Tool",
+        "languages":['Python','MTurks API'],
+        "semester": "Summer 2017",
+        "type":"Internship",
+        "description":"This python project utilizes the Amazon Mechanical Turks Boto API to make a crowd sourcing research tool with an auto-granting qualification request workflow that checks user answers against an answer_key in XML format.",
+        "github":"https://github.com/chishankar/MTurksWorkflow",
+        "devpost":"",
+        "youtube":"",
+        "website":""},
+    "PersonalWebsite":{
+        "title":"Personal Webiste",
+        "languages":['HTML/CSS','Javascript'],
+        "semester": "Summer 2017",
+        "type":"Personal",
+        "description":"Personal Website",
+        "github":"",
+        "devpost":"",
+        "youtube":"",
+        "website":"https://chishankar.github.io/"},
+    "ProjectSidewalk.io":{
+        "title":"Project Sidewalk",
+        "languages":['HTML/CSS','Javascript','SQL','jQuery/AJAX'],
+        "semester": "Summer 2017",
+        "type":"Internship",
+        "description":"A website that combines human computer interaction and machine learning to help map accessibility features in Washington D.C. so those who are disables can travel through DC easier",
+        "github":"https://github.com/ProjectSidewalk",
+        "devpost":"",
+        "youtube":"",
+        "website":"http://sidewalk.umiacs.umd.edu/"},
+};
+
+var projects ={
+    "RooftopFinder":{
+        "title":"Rooftop Finder",
+        "languages":['Node.js','Express.js','Handlebars.js','Socket.io','MongoDB','Now','JQuery/AJAX'],
+        "semester": "Spring 2018",
+        "type":"Personal Project",
+        "description":"A web app that allows users to find buildings to climb and have an adventure getting to the roof. The user and can add new roofs and trips. Search among all active roofs and even have an anonymous chat functionality that allows them to chat with each other.",
+        "github":null,
+        "devpost":null,
+        "youtube":null,
+        "website":null},
+    "LocFi": {
+        "title":"LocFi",
+        "languages":['Ionic','Angular 2','Python/Flask','Firebase','AWS Beanstalk'],
+        "semester":"Spring 2018",
+        "type":"Bitcamp 2018",
+        "description":"A location based social media platform similar to Yik Yak, but with the ability to follow locations, have friends, set up geo-fencing for events and having the ability to review events in real time as they happen and for others to like,disklike and respond accordingly. Minimilistic yet an interesting way to see what is being talked about. The app was built using Ionic (A framework that supports cross-platform development in iOS and Android), which communicated via POST and GET requests to our API which was written in Flask and depoloyed on AWS Beanstalk that talked to Firebase (Google's Database system).",
+        "github":null,
+        "devpost":null,
+        "youtube":null,
+        "website":null},
+    "Rashional":{
+        "title":"Rashional",
+        "languages":['React.js','HTML/CSS','API','Javascript','Machine Learning'],
+        "semester": "Fall 2017",
+        "type":"Medhacks 2017",
+        "description":"Access to Care was a challenge at this years MedHacks Hackathon with an aim to nullify social and regional determinants from impacting ones health. The mobile/desktop app, Rashional, tackles this problem by using a Machine Learning Algorithim to identify different skin rashes, the severity, and utilizes a Free Clinic API to provide the user with a list of the nearest free healthcare clinics available to them. The app helps to provide initial insight and direction to a medical problem, in a field in which there is not a readily available solution that is accessible through the internet and works via a single picture upload. The app is also available in both English and Spanish so it can be accommodate a larger user base and provide access to care to a larger growing population of native English and Spanish speakers.",
+        "github":"https://github.com/chishankar/rashional",
+        "devpost":"https://devpost.com/chishankar",
+        "youtube":"https://youtu.be/XrzsnUgpqW4",
+        "website":"https://rashional.run.aws-usw02-pr.ice.predix.io/"},
+    "Blink2Speech":{
+        "title":"Blink2Speech",
+        "languages":['Python/Flask','HTML/CSS','JQuery/AJAX',"OSC Server","Muse SDK"],
+        "semester": "Spring 2017",
+        "type":"Bitcamp 2017",
+        "description":"A project that facilitates communication by capturing and analyzing eye links using a Muse Headband. Used the Muse Headband SDK to collect EEG data and send the data using a local UDP connection to an OSC python server, where the data was parsed for eye blinks. We used a Flaskpython server that allowed pings from JQuery to make AJAX calls 10x a second and update the chart.",
+        "github":"https://github.com/chishankar/Brain2Speech",
+        "devpost":"https://devpost.com/software/blink2speech",
+        "youtube":"https://www.youtube.com/embed/XA_DWc00pFw",
+        "website":null},
+    "TwitterSpotify":{
+        "title":"Twitter Spotify Music Tool",
+        "languages":['Python',"Tweepy API",'Spotify API'],
+        "semester": "Summer 2017",
+        "type":"Personal Project",
+        "description":"Allows an audience to collectively contribute to a public Spotify Playlist by Private Messaging a public twitter account. This project utilizes the Twitter API and Spotify API.",
+        "github":null,
+        "devpost":null,
+        "youtube":null,
+        "website":null},
+    "TwitterAnalyticsTool":{
+        "title":"Twitter Analytics Tool",
+        "languages":['Python',"Tweepy API"],
+        "semester": "Summer 2017",
+        "type":"Personal Project",
+        "description":"Used the Twitter API to make an analysis tool for businesses to be able to track sentiment about their products or other current events across twitter community. The program runs each live incoming tweet JSON through a sentiment analysis tool assigning it a number and then sorts it respectively into region and sentiment.",
+        "github":null,
+        "devpost":null,
+        "youtube":null,
+        "website":null},
+    "MotionSicknessStudyTool":{
+        "title":"Motion Sickness Study Tool",
+        "languages":['C++11'],
+        "semester": "Spring 2017",
+        "type":"Personal Project",
+        "description":"Designed and programmed virtual reality program using C++11 through Visual Studio integrated with Unreal Engine to quantify motion sickness.",
+        "github":null,
+        "devpost":null,
+        "youtube":null,
+        "website":null},
+    "OverSandVehicle":{
+        "title":"Over Sand Vehicle",
+        "languages":['C++11'],
+        "semester": "Fall 2015",
+        "type":"Engineering Project",
+        "description":"Designed and built over sand vehicle to find object, determine material composition and weight and send information to a server.",
+        "github":null,
+        "devpost":null,
+        "youtube":null,
+        "website":null},
+};
