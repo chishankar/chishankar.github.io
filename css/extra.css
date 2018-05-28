@@ -10,3 +10,16 @@
 .btn:focus, .btn-large:focus, .btn-floating:focus {
     background-color: #c2a435;
 }
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    background: rgba(64,75,97, 0.9);
+    opacity: .9;
+}
+
+/* rgba(64,75,97, 0.9) */
+
+.blue-grey.darken-1 {
+    background-color: rgba(64,75,97, 0.9) !important;
+}

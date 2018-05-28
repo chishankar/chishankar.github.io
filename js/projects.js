@@ -7,8 +7,26 @@ $(document).ready(function() {
 
 });
 
+function createProjectDescriptions(i,obj){
+  desc = '<ul class="list-group list-group-flush">';
+
+  console.log( obj[i].description);
+
+  for (var proj in obj[i].description){
+    desc += '<li class="list-group-item">'+obj[i].description[proj]+"</li>";
+  }
+
+  desc += "</ul>";
+  return desc;
+}
+
 function createClassProjects(i,obj){
-  projects = "<ul>";
+  if (obj[i].projects == 0){
+    return "No projects";
+  }
+  
+  projects = "<ul>" + createLanguages(i,obj);
+
   for (var proj in obj[i].projects){
     projects +=
     "<li>"+
@@ -17,13 +35,14 @@ function createClassProjects(i,obj){
       '</div>'+
     "</li>";
   }
+
   projects += "</ul>";
   return projects;
 }
 
 function createLanguages(i,obj){
   languages='Languages: ';
-  if (obj[i].languages.lenth == 0){
+  if (obj[i].languages.length == 0){
     return "None";
   }
 
@@ -94,7 +113,8 @@ function createJobs(){
           '</div>'+
           '<div class="card-reveal">'+
               '<span class="card-title grey-text text-darken-4"><b>'+jobs[job].title+'</b><i class="material-icons right">close</i></span>'+
-              '<p></p>'+
+              '<p>'+createProjectDescriptions(job,jobs)+
+              '</p>'+
           '</div>'+
         '</div>'+
       '</div>'
@@ -116,7 +136,8 @@ function createExperiences(){
           '</div>'+
           '<div class="card-reveal">'+
               '<span class="card-title grey-text text-darken-4"><b>'+experiences[exp].title+'</b><i class="material-icons right">close</i></span>'+
-              '<p></p>'+
+              '<p>'+
+              '</p>'+
           '</div>'+
         '</div>'+
       '</div>'
@@ -132,10 +153,9 @@ function createCourses(){
             '<h3>'+classes[course].title+'<h6>'+course+' | '+classes[course].semester+'</h6></h3>'+
           '</div>'+
           '<a class="btn btn-primary" data-toggle="collapse" href="#'+course+'" role="button" aria-expanded="false" aria-controls="collapseExample">'+
-            'Class projects'+
+            course +' projects'+
           '</a>'+
           '<div class="collapse" id="'+course+'">'+
-            createLanguages(course,classes)+
             '<div class="card card-body">'+
             createClassProjects(course,classes)+
             '</div>'+

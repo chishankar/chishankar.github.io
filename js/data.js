@@ -2,7 +2,7 @@ var jobs = {
     "UMD":{
         "role":"Teaching Assistant",
         "title":"UMD CS Department",
-        "description":['Created syllabus, projects, and give lectures for CMSC389K: Full Stack Web Development with Node.js','Co-Teach 30 students the fundamental concepts from the syllabus','Syllabus can be found here: https://github.com/UMD-CS-STICs/389Kspring18'],
+        "description":['Helped to develop syllabus, projects, and give lectures for CMSC389K: Full Stack Web Development with Node.js','Co-Teach 30 students the fundamental concepts from the syllabus','Syllabus can be found here: https://github.com/UMD-CS-STICs/389Kspring18'],
         "status":true,
         "year":"Spring 2018 - Current",
         "links":{
@@ -179,9 +179,18 @@ var classes = {
         ]},
     "CMSC351":{
         "title": "Algorithms",
-        "languages": [],
+        "languages": ["Java"],
         "semester": "Fall 2017",
-        "projects": []},
+        "projects": [
+            {
+                "title":"Pac-Man Challenge",
+                "description":"To write a program to see in how many distinct ways the Power Pellet can be reaches.The initial location is (0,0) and the power pellet is located at (w,h). Some of the nodes are blocked, which have to be accounted for.The program must report the number of distinct paths from (0,0) to (w,h) that do pass through any blocked nodes."
+            },
+            {
+                "title":"Expression Tree",
+                "description":"A binary tree in which each internal node corresponds to operator and each leaf node corresponds to operand."
+            },
+        ]},
     "CMSC330":{
         "title": "Organization of Programming Languages",
         "languages": ["Ruby","OCaml","Prolog"],
@@ -332,7 +341,7 @@ var classes = {
             }        
         ]}
 };
-''
+
 var extra_projects={
     "AmazonMturksCrowdSourceTool":{
         "title":"Amazon Mturks Crowd Source Tool",
