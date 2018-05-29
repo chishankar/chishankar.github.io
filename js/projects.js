@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   createProjectCards();
   createJobs();
   createExperiences();
@@ -7,11 +6,9 @@ $(document).ready(function() {
 
 });
 
+// Creating your job descriptions. Clickable card description
 function createProjectDescriptions(i,obj){
   desc = '<ul class="list-group list-group-flush">';
-
-  console.log( obj[i].description);
-
   for (var proj in obj[i].description){
     desc += '<li class="list-group-item">'+obj[i].description[proj]+"</li>";
   }
@@ -20,6 +17,7 @@ function createProjectDescriptions(i,obj){
   return desc;
 }
 
+// Creates class project lists for each class
 function createClassProjects(i,obj){
   if (obj[i].projects == 0){
     return "No projects";
@@ -40,6 +38,7 @@ function createClassProjects(i,obj){
   return projects;
 }
 
+// Creates the string of languages for the projects and the course
 function createLanguages(i,obj){
   languages='Languages: ';
   if (obj[i].languages.length == 0){
@@ -56,6 +55,7 @@ function createLanguages(i,obj){
   return languages;
 }
 
+// Creates the links for jobs and the websites
 function createJobsLinks(i,obj){
   links = '';
   for (var link in obj[i].links){
@@ -64,6 +64,7 @@ function createJobsLinks(i,obj){
   return links;
 }
 
+// Creates projects links for the different links
 function createProjectLinks(i,obj){
   links = '';
 
@@ -82,6 +83,7 @@ function createProjectLinks(i,obj){
   return links;
 }
 
+// Creates the project cards
 function createProjectCards(){
   for (var project in projects){
     $("#project_list").append(
@@ -99,6 +101,7 @@ function createProjectCards(){
   }
 }
 
+// Creates job cards
 function createJobs(){
   for (var job in jobs){
     $("#experience_list").append(
@@ -107,7 +110,7 @@ function createJobs(){
           '<div class="card-image waves-effect waves-block waves-light">'+
               '<img class="activator" src="'+jobs[job].img+'">'+
           '</div>'+
-          '<div class="card-content">'+
+          '<div class="card-content jobs">'+
               '<span class="card-title activator grey-text text-darken-4"><b>'+jobs[job].title+'<h6>'+jobs[job].role+' | '+jobs[job].year+'</h6></b></span>'+
               createJobsLinks(job,jobs)+
           '</div>'+
@@ -122,6 +125,7 @@ function createJobs(){
   }
 }
 
+// Create hackathon cards
 function createExperiences(){
   for (var exp in experiences){
     $("#experience_list").append(
@@ -130,7 +134,7 @@ function createExperiences(){
           '<div class="card-image waves-effect waves-block waves-light">'+
               '<img class="activator" src="'+experiences[exp].img+'">'+
           '</div>'+
-          '<div class="card-content">'+
+          '<div class="card-content experience">'+
               '<span class="card-title activator grey-text text-darken-4"><b>'+experiences[exp].title+'<h6> '+experiences[exp].year+'</h6></b></span>'+
               createJobsLinks(exp,experiences)+
           '</div>'+
@@ -145,6 +149,7 @@ function createExperiences(){
   }
 }
 
+// Creates courses and the button
 function createCourses(){
   for (var course in classes){
     $("#course_list").append(
