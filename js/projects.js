@@ -115,7 +115,7 @@ function createJobs() {
       createJobsLinks(job, jobs) +
       '</div>' +
       '<div class="card-reveal">' +
-      '<span class="card-title grey-text text-darken-4"><b>' + jobs[job].title + '</b><i class="material-icons right">close</i></span>' +
+      '<span class="card-title grey-text text-darken-4"><b>' + jobs[job].title + '</b><i class="material-icons right">X</i></span>' +
       '<p>' + createProjectDescriptions(job, jobs) +
       '</p>' +
       '</div>' +
@@ -139,7 +139,7 @@ function createExperiences() {
       createJobsLinks(exp, experiences) +
       '</div>' +
       '<div class="card-reveal">' +
-      '<span class="card-title grey-text text-darken-4"><b>' + experiences[exp].title + '</b><i class="material-icons right">close</i></span>' +
+      '<span class="card-title grey-text text-darken-4"><b>' + experiences[exp].title + '</b><i class="material-icons right">X</i></span>' +
       '<p>' +
       '</p>' +
       '</div>' +

@@ -6,7 +6,7 @@ var jobs = {
         "status": true,
         "year": "Summer 2018 - Current",
         "links": null,
-        "img": "img/UMD.png"
+        "img": "img/DrFirst.png"
     },
     "UMD": {
         "role": "Teaching Assistant",
