@@ -106,6 +106,60 @@ var experiences = {
 };
 
 var classes = {
+    "CMSC414": {
+        "title": "Computer and Network Security",
+        "languages": ["C","Python","X86-Assembly","Bash Scripting"],
+        "semester": "Fall 2018",
+        "projects": [{
+                "title": "Buffer Overflow Attack",
+                "description": " "
+            },
+            {
+                "title": "Cryptography/Cipher",
+                "description": " "
+            },
+            {
+                "title": "SQL-Web Attacks",
+                "description": " "
+            },
+            {
+                "title": "ATM/BANK Build-it Break-it",
+                "description": " "
+            },
+        ]
+    },
+    "CMSC411": {
+        "title": "Computer Architecture",
+        "languages": ["MIPS64","CISC Architecture","RISC Architecture"],
+        "semester": "Fall 2018",
+        "projects": []
+    },
+    "CMSC433": {
+        "title": "Programming Lanugages, Technologies, and Paradaigms",
+        "languages": ["Java","AKKA","Hadoop"],
+        "semester": "Fall 2018",
+        "projects": [{
+                "title": "Multi-Threaded Auction House",
+                "description": " "
+            },
+            {
+                "title": "Ratsies Restaurant Simulation",
+                "description": " "
+            },
+            {
+                "title": "Maze Runner",
+                "description": " "
+            },
+            {
+                "title": "AKKA Distributed Resources Management",
+                "description": " "
+            },
+            {
+                "title": "Hadoop Twitter Analyzer",
+                "description": " "
+            },
+        ]
+    },
     "CMSC389K": {
         "title": "Full-Stack Web Development with Node.js",
         "languages": ["HTML/CSS", "Javascript", "JQuery/AJAX", "Node.js", "Express.js", "Handlebars.js", "MongoDB", "Socket.io", "Now", "API"],
