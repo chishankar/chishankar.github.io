@@ -106,6 +106,23 @@ var experiences = {
 };
 
 var classes = {
+    "CMSC435": {
+        "title": "Software Engineering",
+        "languages": ["Electron.js", "Node.js", "React.js", "Redux"],
+        "semester": "Spring 2019",
+        "projects": [
+            {
+                "title":"WebCache",
+                "description":"A desktop application that allows users to download websites and annotate them."
+            }
+        ]
+    },
+    "CMSC434": {
+        "title": "Human Computer Interaction",
+        "languages": ["HTML/CSS"],
+        "semester": "Spring 2019",
+        "projects": []
+    },
     "CMSC414": {
         "title": "Computer and Network Security",
         "languages": ["C","Python","X86-Assembly","Bash Scripting"],
