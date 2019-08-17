@@ -1,6 +1,7 @@
 body{
     font-family: "Poppins", Arial, sans-serif;
     color: grey;
+    font-size: 2rem;
 }
 
 .image_center {
@@ -8,7 +9,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    max-width: 25%;
+    max-width: 50%;
 }
 
 #desc {
