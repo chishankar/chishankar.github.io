@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115290019-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-115290019-1');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal website to display my projects and highlight my experience">
+  <title>Chirag S.</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600">
+  <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/cards.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/extra.css">
+</head>
+
+<body>
+  <div class="loader"></div>
+  <div id="myDiv">
+    <div class="header">
+      <div class="bg-color">
+        <header id="main-header">
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar" align="center">
+                <div class="menu-dropdown">
+                  <ul class="nav navbar-nav navbar-left" >
+                    <li class="active"><a href="#main-header">Home</a></li>
+                    <li class=""><a href="#about">About</a></li>
+                    <li class=""><a href="#portfolio">Projects</a></li>
+                    <li class=""><a href="#service">Classwork</a></li>
+                    <li class=""><a href="#blog">Experience</a></li>
+                    <li class=""><a href="#contact">Contact Me</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <div class="wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="banner-info text-center wow fadeIn delay-05s">
+                <img align = "center" class="img-circle" src="img/profilepicsquare.jpg">
+                <h2 align="center" class="bnr-sub-title">Chirag <span class="logo-dec">Shankar</span></h2>
+                <p align="center" class="bnr-para">University of Maryland, College Park<br />Class of 2019 <br />
+                  <span class="logo-dec"><b>Major:</b></span> Computer Science <br />
+                  <span class="logo-dec"><b>Minor:</b></span> Neuroscience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="about" class="section-padding wow fadeIn delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">About Me</h2>
+            <hr class="bottom-line">
+          </div>
+          <p class="summary">
+            I am a graduate of the University of Maryland, College Park with a degree in Computer Science and an upper level concentration in Neuroscience. My Computer Science interests focuses are currently
+          </p>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <img src="img/HCI.png">
+              </div>
+              <h3 class="pad-bt15">Human Computer Interaction</h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12 web">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <img src="img/web-design-web-development.jpg">
+              </div>
+              <h3 class="pad-bt15">Web Development</h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12 data">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <img src="img/DataAnalytics.png">
+              </div>
+              <h3 class="pad-bt15">Data Analytics</h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12 soft">
+            <div class="wrap-item text-center">
+              <div class="item-img">
+                <img src="img/Software.png">
+              </div>
+              <h3 class="pad-bt15 soft">Software Engineering</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="section-padding wow fadeInUp delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">Projects</h2>
+            <p class="sub-title pad-bt15">List of current projects</p>
+            <hr class="bottom-line">
+          </div>
+          <div id="project_list" class="row"></div>        
+      </div>
+    </section>
+    <section id="service" class="section-padding wow fadeInUp delay-05s">
+      <div class="container">
+        <div id="course_list" class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">Coursework</h2>
+            <hr class="bottom-line">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="blog" class="section-padding wow fadeInUp delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">Experience</h2>
+            <p class="sub-title pad-bt15">Current and Past Employment<br />Click on cards for descriptions</p>
+            <hr class="bottom-line">
+          </div>
+        </div>
+        <div id="experience_list" class="row"></div>
+      </div>
+    </section>
+    <section id="contact" class="section-padding wow fadeInUp delay-05s">
+      <div align="center" class="container">
+          <div class="col-md-12 text-center">
+              <p align="left" class="tester">
+                <br /><b class="logo-dec" align="left">E-mail: </b><a href="mailto:chishankar@gmail.com"> chishankar@gmail.com</a>
+                <br /><b class="logo-dec" align="left">LinkedIn: </b><a target="_blank" href="https://www.linkedin.com/in/chirag-shankar/">https://www.linkedin.com/in/chirag-shankar/</a>
+                <br /><b class="logo-dec" align="left">Github: </b><a target="_blank" href="https://github.com/chishankar">https://github.com/chishankar</a>
+              </p></p>
+            <hr class="bottom-line">
+          </div>
+      </div>
+    </section>
+  </div>
+  <script type="text/javascript" language="javascript" src="js/data.js"></script> 
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+</body>
+
+</html>

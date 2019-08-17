@@ -1,10 +1,19 @@
 var jobs = {
+    "Google": {
+        "role": "Cloud Engineer",
+        "title": "Google",
+        "description": [''],
+        "status": true,
+        "year": "August 2019 - Current",
+        "links": null,
+        "img": "img/glogo.png"
+    },
     "DrFirst": {
         "role": "Software Engineering Intern",
         "title": "DrFirst",
         "description": ['Built a Pre-Certification API Analysis tool and dynamic parsing algorithm that checks XML requests against user-defined test cases via a user interface', 'Built Python middleware for active directory integration between multiple sources/apis', 'SCreated PHP Genomics API and RNS Websocket Listener Plugins for Customer API testing','Obtained Portal Integration Certification (Certification to integrate DrFirst Portal products into Customer EMR/EHR\'s)','Built multiple Postman Environments for easier internal API testing'],
-        "status": true,
-        "year": "Summer 2018 - Current",
+        "status": false,
+        "year": "Summer 2018 - Spring 2019",
         "links": null,
         "img": "img/DrFirst.png"
     },
@@ -12,8 +21,8 @@ var jobs = {
         "role": "Teaching Assistant",
         "title": "UMD CS Department",
         "description": ['Helped to develop syllabus, projects, and give lectures for CMSC389K: Full Stack Web Development with Node.js', 'Co-Teach 30 students the fundamental concepts from the syllabus', 'Syllabus can be found here: https://github.com/UMD-CS-STICs/389Kspring18'],
-        "status": true,
-        "year": "Spring 2018 - Current",
+        "status": false,
+        "year": "Spring 2018 - Spring 2019",
         "links": {
             "STICS": "http://stics.umd.edu/catalog.html"
         },
@@ -22,9 +31,9 @@ var jobs = {
     "MPLEX": {
         "role": "Full-Stack Software Engineer",
         "title": "MPLEX Virtual Reality",
-        "year": "Fall 2017 - Current",
+        "year": "Fall 2017 - Spring 2018",
         "description": ['Utilized React.js to build full stack website for company and game website', 'Research for user scalability and data analysis', 'Helped to build motional sickness virtual reality study tool for psychology department'],
-        "status": true,
+        "status": false,
         "links": {
             "MPLEXVR": "http://mplexvr.com/#/",
             "Core Disruption": "http://coredisruption.com/"
@@ -35,8 +44,8 @@ var jobs = {
         "role": "IT Programmer/Analyst",
         "title": "STAMP IT Department",
         "description": ["Set up AV/IT Equipment for events", "Install/troubleshoot programs and problems on different OS's, softwares, and networks", "Employed wireless/direct solutions"],
-        "status": true,
-        "year": "Fall 2016 - Current",
+        "status": false,
+        "year": "Fall 2016 - Spring 2019",
         "links": {
             "STAMP IT": "http://thestamp.umd.edu/the_stamp_student_union/technology_services"
         },

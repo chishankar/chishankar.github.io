@@ -3,7 +3,6 @@ $(document).ready(function () {
   createJobs();
   createExperiences();
   createCourses();
-
 });
 
 // Creating your job descriptions. Clickable card description
