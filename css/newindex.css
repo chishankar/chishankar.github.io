@@ -1,7 +1,7 @@
 body{
     font-family: "Poppins", Arial, sans-serif;
     color: grey;
-    font-size: 2rem;
+    /* font-size: 2rem; */
 }
 
 .image_center {
@@ -9,11 +9,44 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    max-width: 50%;
+    max-width: 30%;
+}
+
+#link-buttons{
+    margin-top: 1.5rem !important;
 }
 
 #desc {
-    margin: 20%;
+    margin: 10%;
+}
+/* 
+p{
+    font-size: 1.5rem;
+} */
+
+.card-img{
+    margin-top: 2%;
+}
+
+.row{
+    display: block;
+}
+
+img.mr-3 {
+    width: 15%;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+h5.card-title{
+    font-size: 1rem;
+}
+
+.media{
+    line-height: 1.5;
+    margin-top: 1.5rem !important;
 }
 
 #other{

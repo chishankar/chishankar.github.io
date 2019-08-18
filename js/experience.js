@@ -51,11 +51,9 @@ function createJobs() {
 
 // Creating your job descriptions. Clickable card description
 function createJobDescriptions(i, obj) {
-    desc = '<ul>';
+    let desc = ''
     for (var proj in obj[i].description) {
       desc += '<li class="list-group-item">' + obj[i].description[proj] + "</li>";
     }
-  
-    desc += "</ul>";
     return desc;
   }
