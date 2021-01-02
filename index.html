@@ -35,15 +35,10 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./index.html#education">Education</a>
                 </li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./index.html#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./index.html#projects">Projects</a>
+                </li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./index.html#articles">Articles</a>
                 </li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger">Projects</a></li>
-                <ul>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger"
-                            href="./index.html#personal-projects">Personal</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger"
-                            href="./index.html#college-projects">College</a></li>
-                </ul>
                 <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./projects.html">Projects</a></li> -->
             </ul>
         </div>
@@ -255,6 +250,27 @@
             </div>
         </section>
         <hr class="m-0" />
+        <!-- Projects -->
+        <section class="resume-section" id="projects">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Projects</h2>
+                <div class="continer mx-auto">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <input type="input" class="form-control input-lg" id="project-search"
+                                    placeholder="Type '.' to see all projects">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6" id="personal-filter-records"></div>
+                        <div class="col-6" id="filter-records"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
         <!-- Articles -->
         <section class="resume-section" id="articles">
             <div class="resume-section-content">
@@ -271,53 +287,6 @@
             </div>
         </section>
         <hr class="m-0" />
-
-        <!-- Personal Projects -->
-        <section class="resume-section" id="personal-projects">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Personal Projects</h2>
-                <div class="continer mx-auto">
-                    <div class="row">
-                        <div class="col">
-                            <div class="form-group">
-                                <input type="input" class="form-control input-lg" id="personal-search"
-                                    placeholder="Type '.' to see all projects">
-                            </div>
-                        </div>
-                        <div class="col"><span id="personal-semester-count">5</span> semesters</div>
-                        <div class="col"><span id="personal-project-count">8</span> projects</div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div id="personal-filter-records" class="mx-auto"></div>
-                </div>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- College Projects -->
-        <section class="resume-section" id="college-projects">
-            <div class="resume-section-content">
-                <h2 class="mb-5">College Projects</h2>
-                <div class="continer mx-auto">
-                    <div class="row">
-                        <div class="col">
-                            <div class="form-group">
-                                <input type="input" class="form-control input-lg" id="txt-search"
-                                    placeholder="Type '.' to see all projects">
-                            </div>
-                        </div>
-                        <div class="col"><span id="semester-count">7</span> semesters</div>
-                        <div class="col"><span id="project-count">60</span> projects</div>
-                        <div class="col"><span id="class-count">11</span> classes</div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div id="filter-records" class="mx-auto"></div>
-                </div>
-            </div>
-        </section>
-        <hr class="m-0" />
-
     </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

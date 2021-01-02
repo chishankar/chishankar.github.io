@@ -57,7 +57,7 @@ function getPersonalProjects() {
         target: "#sideNav",
     });
 
-    $('#txt-search').keyup(function () {
+    $('#project-search').keyup(function () {
         var searchField = $(this).val();
         if (searchField === '') {
             $('#filter-records').html('');
@@ -95,7 +95,7 @@ function getPersonalProjects() {
         $('#filter-records').html(output);
     });
 
-    $('#personal-search').keyup(function () {
+    $('#project-search').keyup(function () {
         var searchField = $(this).val();
         if (searchField === '') {
             $('#personal-filter-records').html('');
