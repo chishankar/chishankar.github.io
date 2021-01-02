@@ -58,9 +58,14 @@ function getProjects() {
         var regex = new RegExp(searchField, "i");
         var output = '';
         var count = 0;
+        let semesterCount = new Set();
+        let classCount = new Set();
         $.each(projects, function (key, val) {
             try {
-                if ((val.description.search(regex) != -1) || (val.discription.search(regex) != -1) || (val.title.search(regex) != -1) || (val.title.search(regex) != -1)) {
+                if ((val.description.search(regex) != -1) || 
+                (val.title.search(regex) != -1) || 
+                (val.classTitle.search(regex) != -1) || 
+                (val.semester.search(regex) != -1)) {
                     output += `<div class="card">
                         <div class="card-body">
                             <h5 class="card-title"><span><i class="fas fa-project-diagram"></i></span>
@@ -70,9 +75,13 @@ function getProjects() {
                         </div>
                     </div>`
                     count++;
+                    semesterCount.add(val.semester);
+                    classCount.add(val.classTitle);
                 }
             } catch (err) { }
         });
+        $('#class-count').html(classCount.size)
+        $('#semester-count').html(semesterCount.size)
         $('#project-count').html(count);
         $('#filter-records').html(output);
     });
