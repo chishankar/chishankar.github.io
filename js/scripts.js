@@ -14,6 +14,15 @@ function getProjects() {
     return classProjectList;
 }
 
+function getPersonalProjects() {
+    personalProjectList = [];
+    // var values = [classes];
+    for (proj in projects) {
+            personalProjectList.push(projects[proj])
+    }
+    return personalProjectList;
+}
+
 (function ($) {
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
@@ -84,6 +93,45 @@ function getProjects() {
         $('#semester-count').html(semesterCount.size)
         $('#project-count').html(count);
         $('#filter-records').html(output);
+    });
+
+    $('#personal-search').keyup(function () {
+        var searchField = $(this).val();
+        if (searchField === '') {
+            $('#personal-filter-records').html('');
+            return;
+        }
+        var projects = getPersonalProjects();
+        console.log(projects);
+
+        var regex = new RegExp(searchField, "i");
+        var output = '';
+        var count = 0;
+        let semesterCount = new Set();
+        let classCount = new Set();
+        $.each(projects, function (key, val) {
+            try {
+                if ((val.description.search(regex) != -1) ||
+                (val.title.search(regex) != -1) ||
+                (val.semester.search(regex) != -1) ||
+                (val.languages.search(regex) != -1)) {
+                    output += `<div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><span><i class="fas fa-project-diagram"></i></span>
+                            ${val.title}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">${val.languages} | ${val.semester} </h6>
+                            <p class="card-text">${val.description}</p>
+                        </div>
+                    </div>`
+                    count++;
+                    semesterCount.add(val.semester);
+                    classCount.add(val.classTitle);
+                }
+            } catch (err) { }
+        });
+        $('#personal-semester-count').html(semesterCount.size)
+        $('#personal-project-count').html(count);
+        $('#personal-filter-records').html(output);
     });
 
 })(jQuery); // End of use strict
