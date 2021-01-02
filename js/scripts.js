@@ -1,16 +1,24 @@
-/*!
-    * Start Bootstrap - Resume v6.0.2 (https://startbootstrap.com/theme/resume)
-    * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-    */
-    (function ($) {
-    "use strict"; // Start of use strict
+function getProjects() {
+    classProjectList = [];
+    // var values = [classes];
+    for (var course in classes) {
+        for (var proj in classes[course].projects) {
+            // console.log(classes[course].projects[proj])
+            tempProj = classes[course].projects[proj]
+            tempProj.classTitle = classes[course].title;
+            tempProj.semester = classes[course].semester;
+            tempProj.languages = classes[course].languages;
+            classProjectList.push(tempProj)
+        }
+    }
+    return classProjectList;
+}
 
-    // Smooth scrolling using jQuery easing
+(function ($) {
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
             location.pathname.replace(/^\//, "") ==
-                this.pathname.replace(/^\//, "") &&
+            this.pathname.replace(/^\//, "") &&
             location.hostname == this.hostname
         ) {
             var target = $(this.hash);
@@ -39,4 +47,34 @@
     $("body").scrollspy({
         target: "#sideNav",
     });
+
+    $('#txt-search').keyup(function () {
+        var searchField = $(this).val();
+        if (searchField === '') {
+            $('#filter-records').html('');
+            return;
+        }
+        var projects = getProjects();
+        var regex = new RegExp(searchField, "i");
+        var output = '';
+        var count = 0;
+        $.each(projects, function (key, val) {
+            try {
+                if ((val.description.search(regex) != -1) || (val.discription.search(regex) != -1) || (val.title.search(regex) != -1) || (val.title.search(regex) != -1)) {
+                    output += `<div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><span><i class="fas fa-project-diagram"></i></span>
+                            ${val.title}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">${val.classTitle} | ${val.semester} </h6>
+                            <p class="card-text">${val.description}</p>
+                        </div>
+                    </div>`
+                    count++;
+                }
+            } catch (err) { }
+        });
+        $('#project-count').html(count);
+        $('#filter-records').html(output);
+    });
+
 })(jQuery); // End of use strict
